@@ -6,5 +6,5 @@ if (hostname.indexOf(".rippling.") !== -1) {
 }
 
 if (hostname.indexOf("localhost") !== -1){
-    document.title = "[" + local + "]" + document.title;
+    document.title = "[local]" + document.title;
 }
